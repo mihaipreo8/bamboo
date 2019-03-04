@@ -1,0 +1,15 @@
+{% extends "bank/base.html" %}
+{% block content %}
+	<article class="media content-section">
+	  <div class="media-body">
+	    <div class="article-metadata">
+	      <a class="mr-2" href="#">From: {{ object.sender  }} To: {{ object.receiver  }} </a>
+	      <small class="text-muted">{{ object.transaction.date_transaction }}</small>
+	    </div>
+	    <p><a class="article-title">Account No: {{ transaction.accountNoReceiver  }} Sort Code: {{ transaction.sortCodeReceiver }} </a></p>
+	    <p class="article-title">Value: {{ object.value }} bamb€</p>
+	    <p><a class="article-title"">Details: {{object.transactionDetails}}</a></p>
+	    <p class="article-content">Current balance: {{ object.Balance }} bamb€</p>
+	  </div>
+	</article>
+{% endblock content %}
