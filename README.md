@@ -17,6 +17,7 @@ Instructions on how to run the solution:
 
 NOTE: If you want to access the admin page of the web application, in order to be able to modify user rights, user details, transaction details and much more please use the following credentials:
 		- Username: mihai  Password: bamboopanda
+Also, the same credentials can be used for accessing a normal User account. 
 
 
 Comments:
